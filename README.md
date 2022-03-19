@@ -12,4 +12,4 @@
 
 
 ## Collisions
-/demo/solid_collisions.mp4
+https://raw.githubusercontent.com/kalyan0510/Learning-Computer-Graphics/main/demo/solid_collisions.mp4
