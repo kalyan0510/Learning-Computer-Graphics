@@ -1,0 +1,16 @@
+#version 410 core
+
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec3 aNorm;
+
+
+uniform mat4 model;
+
+out vec3 WorldPos_CS_in;
+out vec3 Normal_CS_in;
+
+void main()
+{
+    WorldPos_CS_in = (model * vec4(aPos, 1.0)).xyz;
+    Normal_CS_in = (gWorld * vec4(aNorm, 0.0)).xyz;
+}

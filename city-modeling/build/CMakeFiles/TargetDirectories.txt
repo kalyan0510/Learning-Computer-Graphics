@@ -1,0 +1,3 @@
+/home/student/Desktop/Learning-Computer-Graphics/city-modeling/build/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/Learning-Computer-Graphics/city-modeling/build/CMakeFiles/edit_cache.dir
+/home/student/Desktop/Learning-Computer-Graphics/city-modeling/build/CMakeFiles/city_modeling.dir

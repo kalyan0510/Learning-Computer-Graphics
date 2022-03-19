@@ -1,0 +1,33 @@
+// Tessellation Evaluation Shader
+#version 410 core
+
+layout (triangles, equal_spacing, cw) in;
+
+in vec3 normals_c[];
+in vec3 fragpos_c[];
+
+out vec3 FragPos;
+out vec3 Normal;
+
+uniform mat4 view;
+uniform mat4 model;
+uniform mat4 projection;
+
+
+vec4 lerp3DH(vec4 v0, vec4 v1, vec4 v2)
+{
+    return (gl_TessCoord.x) * v0 + (gl_TessCoord.y) * v1 + (gl_TessCoord.z) * v2;
+}
+
+vec3 lerp3D(vec3 v0, vec3 v1, vec3 v2)
+{
+    return vec3(gl_TessCoord.x) * v0 + vec3(gl_TessCoord.y) * v1 + vec3(gl_TessCoord.z) * v2;
+}
+
+void main()
+{
+	FragPos = normalize(lerp3D(fragpos_c[0],fragpos_c[1],fragpos_c[2]));
+	Normal = normalize(lerp3D(normals_c[0],normals_c[1],normals_c[2]));
+	gl_Position = projection * view * model * vec4(FragPos, 1.0);
+	//lerp3DH(gl_in[0].gl_Position,gl_in[1].gl_Position,gl_in[2].gl_Position);
+}

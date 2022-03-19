@@ -1,0 +1,3 @@
+/home/student/Desktop/Learning-Computer-Graphics/catmull-rom/build/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/Learning-Computer-Graphics/catmull-rom/build/CMakeFiles/edit_cache.dir
+/home/student/Desktop/Learning-Computer-Graphics/catmull-rom/build/CMakeFiles/catmull_rom.dir
