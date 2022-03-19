@@ -1,5 +1,3 @@
-# Programming Assignment 1
-
 I have laid an algorithm to rasterize polynomials based on the midpoint strategy. The solution works for all third degree polynomials (y=ax^3+ bx^2 + cx +d | a!=0).
 I have not added in any clipping strategy, so some of the points on polynomial that fall beyond the screen will be computed. 
 In some cases where polynomial goes very far (like y = 30k) beyond the screen due to sharp peaks, the UI seems to lag as many computations are done. (if the polynomial is very abrupt, this may take very long time). 
