@@ -8,11 +8,11 @@ My rough work towards arriving to cubic polynomial solution: https://drive.googl
 
 ## Features Implemented
 
-- [x] P1: Line segment (any slope)
-- [x] P2: Ploy-line (& Polygon)
-- [x] P3: Circle
-- [x] P4: Ellipse
-- [x] P5: Cubic curve
+- [x] Line segment (any slope)
+- [x] Ploy-line (& Polygon)
+- [x] Circle
+- [x] Ellipse
+- [x] Cubic curve
 
 ## Compile & Run
 
