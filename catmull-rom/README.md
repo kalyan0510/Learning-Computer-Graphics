@@ -13,7 +13,6 @@ My rough work towards arriving at conditions for stitching the curves: https://d
 - [x] P1: 4 Point Bezier curve segment
 - [x] P2: Piecewise  Bezier curve 
 - [x] P3: Piecewise  Catmull-Rom spline
-- [ ] P4: 3D version of above
 ## Compile & Run
 
 ### How to Compile
