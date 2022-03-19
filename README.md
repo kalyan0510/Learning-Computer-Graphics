@@ -1,7 +1,11 @@
 # Learning-Computer-Graphics
- contains line-drawing to city-modeling
+ contains 
+ 1. line drawing and curve drawing using mid-point algorithm
+ 2. Bouncing ellipses. Ellipse collisions cannot be analytically calculated, so I used brent's algorithm to converge to collesion point.
+ 3. Bézier splines
+ 4. Use of multiple shaders like (Vertex, Geometry, Tesellation & Fragment) to render super-quadrics and other quadrics. I have built a city (kinda) model from these geometric shapes. 
 
-
+Note: Parts of code from my compter graphics assignments are used with the consent of the instructor. 
 
 
 ## Lines and Curves
