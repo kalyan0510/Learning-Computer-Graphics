@@ -8,11 +8,11 @@ I had used brent's algorithm from [here](https://cenit.github.io/jburkardt/brent
 \* The masses of all the objects are assumed to be same.
 ## Features Implemented
 
-- [x] P1: Bouncing Balls
-- [x] P2: Four Bouncing Balls
-- [x] P3: Bouncing Faces
-- [x] P4: Four Bouncing Faces
-- [x] P5: Bouncing ELLIPSES and faces
+- [x] Bouncing Balls
+- [x] Four Bouncing Balls
+- [x] Bouncing Faces
+- [x] Four bouncing Faces
+- [x] Bouncing ELLIPSES and faces
 
 ## Compile & Run
 
