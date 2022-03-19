@@ -1,9 +1,9 @@
 # Learning-Computer-Graphics
  contains 
- 1. line drawing and curve drawing using mid-point algorithm
- 2. Bouncing ellipses. Ellipse collisions cannot be analytically calculated, so I used brent's algorithm to converge to collesion point.
- 3. Bézier splines
- 4. Use of multiple shaders like (Vertex, Geometry, Tesellation & Fragment) to render super-quadrics and other quadrics. I have built a city (kinda) model from these geometric shapes. 
+ 1. [line drawing and curve drawing](https://github.com/kalyan0510/Learning-Computer-Graphics/tree/main/line_curve_drawing) using mid-point algorithm
+ 2. [Bouncing ellipses](https://github.com/kalyan0510/Learning-Computer-Graphics/tree/main/bouncing_and_colliding_ellipses). Ellipse collisions cannot be analytically calculated, so I used brent's algorithm to converge to collesion point.
+ 3. [Bézier splines](https://github.com/kalyan0510/Learning-Computer-Graphics/tree/main/catmull-rom)
+ 4. Use of multiple shaders like (Vertex, Geometry, Tesellation & Fragment) to render super-quadrics and other quadrics. I have built a [city (kinda) model](https://github.com/kalyan0510/Learning-Computer-Graphics/tree/main/city-modeling) from these geometric shapes. 
 
 Note: Parts of code from my compter graphics assignments are used with the consent of the instructor. 
 
