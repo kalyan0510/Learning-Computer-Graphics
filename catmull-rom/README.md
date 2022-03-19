@@ -10,9 +10,9 @@ For Catmull-rom splines:
 My rough work towards arriving at conditions for stitching the curves: https://drive.google.com/file/d/1QzVPN-Mpbv6ju12TR3McYWEi-S9V1nQX/view?usp=sharing
 ## Features Implemented
 
-- [x] P1: 4 Point Bezier curve segment
-- [x] P2: Piecewise  Bezier curve 
-- [x] P3: Piecewise  Catmull-Rom spline
+- [x] 4 Point Bezier curve segment
+- [x] Piecewise  Bezier curve 
+- [x] Piecewise  Catmull-Rom spline
 ## Compile & Run
 
 ### How to Compile
